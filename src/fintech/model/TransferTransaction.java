@@ -9,6 +9,7 @@ public class TransferTransaction extends Transaction {
         super(id, username, amount, timestamp, description);
         this.receiver = receiver;
     }
+    @Override
 
     public String getType() {
         return "transfer";

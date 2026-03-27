@@ -6,6 +6,7 @@ public class DepositTransaction extends Transaction {
     public DepositTransaction(int id, String username, double amount, String timestamp, String description) {
         super(id, username, amount, timestamp, description);
     }
+    @Override
 
     public String getType() {
         return "deposit";
